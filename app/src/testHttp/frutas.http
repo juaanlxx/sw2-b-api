@@ -1,0 +1,7 @@
+@url = https://8080-juaanlxx-sw2bapi-uh4spsiplsm.ws-us116.gitpod.io
+
+###
+GET {{url}}/frutas
+
+###
+GET {{url}}/frutas/2
