@@ -1,0 +1,25 @@
+@url = https://8080-juaanlxx-sw2bapi-r3yn3cujomp.ws-us116.gitpod.io
+
+###
+GET {{url}}/pessoas
+
+###
+POST {{url}}/pessoas
+Content-Type: application/json
+
+{
+    "nome": "Camille",
+    "idade": 18
+}
+
+###
+PUT {{url}}/pessoas/2
+Content-Type: application/json
+
+{
+    "nome": "Dados Alterados",
+    "idade": "17"
+}
+
+###
+DELETE {{url}}/pessoas/2
